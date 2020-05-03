@@ -1,7 +1,7 @@
 
 body{
 	background-color: #DDDDDD; // this is silver looks eh
-	font-family:Arial !important; // the !important overrides ios font families so it shows up
+	font-family:Arial;
 	text-align:center;
 	font-size:30px;
 }
