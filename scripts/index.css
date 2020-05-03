@@ -1,7 +1,7 @@
 
 body{
-	background-color: #DDDDDD; // this is silver looks eh
-	font-family:Arial;
+	background-color: #DDDDDD;
+	font-family:Arial !important;
 	text-align:center;
 	font-size:30px;
 }
