@@ -1,7 +1,44 @@
 
 body{
-	background-color: #DDDDDD;
 	font-family:Arial !important;
 	text-align:center;
-	font-size:30px;
+	font-size:190%;
+	background-color: #DDDDDD;
+	background:
+		linear-gradient(
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url(../resources/thepic.png);
+	background-position: top;
+	background-repeat: repeat-y;
+	background-size: contain;
+	color:white;
+	background-attachment: scroll;
+	-ms-overflow-style: none;
+	margin:0;
+	padding:0;
+}
+
+body::-webkit-scrollbar{
+	display:none;
+}
+
+a:link, a:visited {
+	background-color: #f44336;
+	border-radius:5px;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+a:hover, a:active {
+	background-color: red;
+}
+
+footer{
+	font-size: 100%;
+	margin:0.5em;
 }
