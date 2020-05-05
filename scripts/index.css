@@ -1,6 +1,9 @@
+html{
+	scroll-behavior: smooth;
+}
 
 body{
-	font-family:Arial !important;
+	font-family:Arial, Helvetica, sans-serif !important;
 	text-align:center;
 	font-size:190%;
 	background-color: #DDDDDD;
@@ -24,7 +27,7 @@ body::-webkit-scrollbar{
 	display:none;
 }
 
-a:link, a:visited {
+#contactinfo:link, #contactinfo:visited {
 	background-color: #f44336;
 	border-radius:5px;
 	color: white;
@@ -34,11 +37,70 @@ a:link, a:visited {
 	display: inline-block;
   }
   
-a:hover, a:active {
+#contactinfo:hover, #contactinfo:active {
 	background-color: red;
 }
 
 footer{
-	font-size: 100%;
-	margin:0.5em;
+	font-size: 70%;
+	color:black;
+	padding:5% 0 10% 0;
+	font-family: 'Courier New', Courier, monospace;
+	background-color:white;
 }
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color:white;
+}
+
+#about{
+	text-indent: 1em;
+	text-align: left;
+	font-size:0.6em;
+	padding: 1% 5% 1% 5%;
+	margin:0 5% 0 5%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: cadetblue;
+	color: rgb(31, 51, 51);
+}
+
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: orangered; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border: 1px solid white;
+	border-radius: 15%; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+  }
